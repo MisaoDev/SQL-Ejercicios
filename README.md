@@ -199,7 +199,7 @@ JOIN payment AS p ON p.customer_id = c.customer_id
 GROUP BY c.first_name, c.last_name
 ORDER BY c.last_name ASC;
 ```
-**Tip**: Usamos **INNER JOIN** (o simplemente _JOIN_) para tomar solo los elementos vinculados entre ambas tablas. Porque en este caso solo nos interesan los clientes que han hecho compras, ni tampoco un pago sin vincular con un cliente.
+**Tip**: Usamos **INNER JOIN** (o simplemente _JOIN_) para tomar solo los elementos vinculados entre ambas tablas. Porque en este caso solo nos interesan los clientes que han hecho compras.
 </p></details>
 
 ### 14. Se debe realizar una campaña de marketing en Canada. Para esto necesitas el nombre y correo electrónico de todos los clientes Canadienses. Despliega esta información.
