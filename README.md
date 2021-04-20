@@ -202,7 +202,7 @@ ORDER BY c.last_name ASC;
 **Tip**: Usamos **INNER JOIN** (o simplemente _JOIN_) para tomar solo los elementos vinculados entre ambas tablas. Porque en este caso solo nos interesan los clientes que han hecho compras.
 </p></details>
 
-### 14. Se debe realizar una campaña de marketing en Canada. Para esto necesitas el nombre y correo electrónico de todos los clientes Canadienses. Despliega esta información.
+### 14. Se debe realizar una campaña de marketing en Canada. Para esto necesitas el nombre y correo electrónico de todos los clientes canadienses. Despliega esta información.
 <details>
 <summary>Solución</summary><p>
 
@@ -217,7 +217,7 @@ JOIN city AS ci       ON ci.city_id = ad.city_id
 JOIN country AS co    ON co.country_id = ci.country_id
 WHERE co.country = "Canada";
 ```
-**Tip**: El primer _JOIN_ es de tipo _INNER_ porque solo nos interesan los clientes que tienen una dirección asociada. Lo siguientes también son _INNER JOIN_ porque para capturar los clientes Canadienses solo nos sirven aquellos datos donde la dirección está asociada a una ciudad y un país. En otras palabras solo recogemos datos con el vínculo completo desde cliente hasta país.
+**Tip**: El primer _JOIN_ es de tipo _INNER_ porque solo nos interesan los clientes que tienen una dirección asociada. Lo siguientes también son _INNER JOIN_ porque para capturar los clientes canadienses solo nos sirven aquellos datos donde la dirección está asociada a una ciudad y un país. En otras palabras solo recogemos datos con el vínculo completo desde cliente hasta país.
 </p></details>
 
 ### 15. Identifica todas las películas categorizadas como familiares (categoría "family").
