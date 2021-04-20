@@ -150,10 +150,10 @@ WHERE YEAR(p.payment_date) = 2005
 GROUP BY `Empleado`;
 ```
 **Tip**: La función **YEAR** recibe como parámetro un dato de tipo fecha y devuelve solamente el año.<br>
-**Tip**: La función **SUM** funciona igual que **COUNT** pero en vez de contar cada elemento suma sus cantidades.
+**Tip**: La función **SUM** funciona igual que **COUNT** pero, en vez de contar cada elemento, suma sus cantidades.
 </p></details>
 
-### 11. Deslpiega la cantidad de actores por cada película.
+### 11. Despliega la cantidad de actores por cada película.
 <details>
 <summary>Solución</summary><p>
 
