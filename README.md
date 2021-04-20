@@ -76,7 +76,7 @@ FROM actor
 WHERE last_name LIKE "%LI%"
 ORDER BY `Nombre`, `Apellido`;
 ```
--- **Tip**: Aquí referenciamos al nombre y apellido por sus _alias_, usando el símbolo de tilde invertido (**no con comillas**). Eso solo es posible en _ORDER BY_, _GROUP BY_ o _HAVING_.
+**Tip**: Aquí referenciamos al nombre y apellido por sus _alias_, usando el símbolo de tilde invertido (**no con comillas**). Eso solo es posible en _ORDER BY_, _GROUP BY_ o _HAVING_.
 </p></details>
 
 ### 6. Usando la función IN, muestra el nombre y apellido de todos los clientes llamados "Terry", "Jessie" o "Alice".
