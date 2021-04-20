@@ -1,7 +1,7 @@
 # SQL-Ejercicios
-Ejercicios básicos de SQL para usar con la base de datos de ejemplo [Sakila](https://dev.mysql.com/doc/sakila/en/). Las respuestas de ejemplo son para MySQL pero en gran parte son compatibles con SQL Server u otros motores.
+Ejercicios básicos de SQL con sus soluciones. Para usar con la base de datos [Sakila](https://dev.mysql.com/doc/sakila/en/). Las soluciones propuestas son para MySQL pero en gran parte son compatibles con SQL Server u otros motores. También incluyen algunas explicaciones.
 
-La mayoría de los ejercicios fueron sacados de internet, traducidos o modificados. Alguno que otro es original.
+La mayoría de los ejercicios fueron sacados de internet, traducidos o modificados.
 
 ## Queries de lectura
 
